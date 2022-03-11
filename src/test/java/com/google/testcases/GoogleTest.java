@@ -30,7 +30,7 @@ public class GoogleTest {
 	public void loginTest() throws Throwable {
 		for (String browser : browserList) {
 			
-			  String url = "http://172.18.0.2:4444/wd/hub";
+			  String url = "http://172.20.0.2:4444/wd/hub";
 			  //String url = "http://172.24.130.93:4444/wd/hub"; 
 			  DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 			  desiredCapabilities.setBrowserName(browser);
